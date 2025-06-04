@@ -1,0 +1,18 @@
+{
+  "collectionName": "travel",
+  "info": {
+    "singularName": "travel",
+    "pluralName": "travels",
+    "displayName": "Travel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+  "locationPostName": { "type": "string" },
+  "date": { "type": "string" },
+  "location": { "type": "string" },
+  "travelPostDetails": { "type": "richtext" },
+  "featuredImage": { "type": "media", "multiple": false }
+}
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "project",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+  "projectName": { "type": "string" },
+  "projectShortDescription": { "type": "string" },
+  "links": { "type": "json" },
+  "github": { "type": "string" },
+  "projectDetails": { "type": "richtext" },
+  "footnotes": { "type": "richtext" }
+}
+}

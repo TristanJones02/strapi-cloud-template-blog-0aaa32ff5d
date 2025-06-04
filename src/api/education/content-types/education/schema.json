@@ -1,0 +1,30 @@
+{
+  "collectionName": "education",
+  "info": {
+    "singularName": "education",
+    "pluralName": "educations",
+    "displayName": "Education"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+  "institutionName": { "type": "string" },
+  "institutionLocation": { "type": "string" },
+  "shortDescription": { "type": "string" },
+  "location": { "type": "string" },
+  "institutionLogo": { "type": "media", "multiple": false },
+  "date": { "type": "string" },
+  "longDescription": { "type": "text" },
+  "completedUnits": {
+    "type": "relation",
+    "relation": "manyToMany",
+    "target": "api::unit.unit"
+  },
+  "inProgressUnits": {
+    "type": "relation",
+    "relation": "manyToMany",
+    "target": "api::unit.unit"
+  }
+}
+}

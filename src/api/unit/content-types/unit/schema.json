@@ -1,0 +1,16 @@
+{
+  "collectionName": "unit",
+  "info": {
+    "singularName": "unit",
+    "pluralName": "units",
+    "displayName": "Unit"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+  "unitCode": { "type": "string" },
+  "unitName": { "type": "string" },
+  "tooltip": { "type": "string" }
+}
+}

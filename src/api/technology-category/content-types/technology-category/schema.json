@@ -1,0 +1,14 @@
+{
+  "collectionName": "technology_category",
+  "info": {
+    "singularName": "technology-category",
+    "pluralName": "technology-categorys",
+    "displayName": "Technology Category"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+  "categoryName": { "type": "string" }
+}
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "technology",
+  "info": {
+    "singularName": "technology",
+    "pluralName": "technologys",
+    "displayName": "Technology"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+  "name": { "type": "string" },
+  "logo": { "type": "media", "multiple": false },
+  "description": { "type": "text" },
+  "category": {
+    "type": "relation",
+    "relation": "manyToOne",
+    "target": "api::technology-category.technology-category"
+  }
+}
+}

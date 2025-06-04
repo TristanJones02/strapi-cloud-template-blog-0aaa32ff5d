@@ -1,0 +1,28 @@
+{
+  "collectionName": "professional_certification",
+  "info": {
+    "singularName": "professional-certification",
+    "pluralName": "professional-certifications",
+    "displayName": "Professional Certification"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+  "certificationName": { "type": "string" },
+  "institutionName": { "type": "string" },
+  "institutionLogo": { "type": "media", "multiple": false },
+  "description": { "type": "text" },
+  "completedUnits": {
+    "type": "relation",
+    "relation": "manyToMany",
+    "target": "api::unit.unit"
+  },
+  "inProgressUnits": {
+    "type": "relation",
+    "relation": "manyToMany",
+    "target": "api::unit.unit"
+  },
+  "date": { "type": "string" }
+}
+}

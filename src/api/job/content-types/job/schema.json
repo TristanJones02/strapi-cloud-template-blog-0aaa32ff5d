@@ -1,0 +1,22 @@
+{
+  "collectionName": "job",
+  "info": {
+    "singularName": "job",
+    "pluralName": "jobs",
+    "displayName": "Job"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+  "roleName": { "type": "string" },
+  "company": { "type": "string" },
+  "location": { "type": "string" },
+  "description": { "type": "text" },
+  "keyResponsibilities": { "type": "json" },
+  "skillsUsed": { "type": "json" },
+  "keyLearnings": { "type": "json" },
+  "keyAchievements": { "type": "json" },
+  "logos": { "type": "media", "multiple": true }
+}
+}

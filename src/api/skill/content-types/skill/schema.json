@@ -1,0 +1,16 @@
+{
+  "collectionName": "skill",
+  "info": {
+    "singularName": "skill",
+    "pluralName": "skills",
+    "displayName": "Skill"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+  "skillName": { "type": "string" },
+  "shortDescription": { "type": "string" },
+  "keyExamples": { "type": "json" }
+}
+}
